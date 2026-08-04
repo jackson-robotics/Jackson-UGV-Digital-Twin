@@ -1,0 +1,3123 @@
+==================================================
+V_stage3_C1_DWB_DYNAMIC_R06_20260726_181311
+--- navigate_to_pose_action.txt ---
+Waiting for an action server to become available...
+Sending goal:
+     pose:
+  header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: map
+  pose:
+    position:
+      x: 1.2091
+      y: -0.0364
+      z: 0.0
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+behavior_tree: ''
+
+Goal accepted with ID: aacd5487e6a747a98509e787f0064330
+
+Feedback:
+    current_pose:
+  header:
+    stamp:
+      sec: 98
+      nanosec: 16671778
+    frame_id: map
+  pose:
+    position:
+      x: -0.696466274381415
+      y: -0.039858889270520115
+      z: 0.0
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: -0.001206389573990014
+      w: 0.9999992723118332
+navigation_time:
+  sec: 0
+  nanosec: 0
+estimated_time_remaining:
+  sec: 0
+  nanosec: 0
+number_of_recoveries: 0
+distance_remaining: 0.0
+
+Feedback:
+    current_pose:
+  header:
+    stamp:
+      sec: 98
+      nanosec: 16671778
+    frame_id: map
+  pose:
+    position:
+      x: -0.696466274381415
+      y: -0.039858889270520115
+      z: 0.0
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: -0.001206389573990014
+      w: 0.9999992723118332
+navigation_time:
+  sec: 0
+  nanosec: 0
+estimated_time_remaining:
+  sec: 0
+  nanosec: 0
+number_of_recoveries: 0
+distance_remaining: 0.0
+
+Feedback:
+    current_pose:
+  header:
+    stamp:
+      sec: 98
+      nanosec: 50005113
+    frame_id: map
+  pose:
+    position:
+      x: -0.696466274381415
+      y: -0.039858889270520115
+      z: 0.0
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: -0.0012057198780971673
+      w: 0.9999992731195234
+navigation_time:
+  sec: 0
+  nanosec: 16666668
+estimated_time_remaining:
+  sec: 0
+  nanosec: 0
+number_of_recoveries: 0
+distance_remaining: 1.9252936840057373
+
+Feedback:
+    current_pose:
+  header:
+    stamp:
+      sec: 98
+      nanosec: 50005113
+    frame_id: map
+  pose:
+    position:
+      x: -0.696466274381415
+      y: -0.039858889270520115
+      z: 0.0
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: -0.0012057198780971673
+      w: 0.9999992731195234
+navigation_time:
+  sec: 0
+  nanosec: 16666668
+--- RUN_NOTES.txt ---
+Jackson Stage 3 Virtual Dynamic Cylinder Official Run — INFL025 COST10
+Run: R06
+Result: SUCCEEDED
+Obstacle contact: no
+Manual cancellation: no
+Operator intervention during navigation: no
+Controller: DWBLocalPlanner
+min_speed_theta: 0.30 rad/s
+xy_goal_tolerance: 0.25 m
+yaw_goal_tolerance: 0.40 rad
+robot_radius: 0.16 m
+inflation_radius: 0.25 m
+cost_scaling_factor: 10.0
+Start: x=-0.6909 m, y=-0.0364 m, yaw=0 rad
+Goal: x=1.2091 m, y=-0.0364 m, yaw=0 rad
+Cylinder: x=0.6091 m, y=-0.0364 m, parked z=-1.0000 m, inserted z=0.1900 m
+Nominal trigger: 0.120 m ground-truth forward displacement
+Completion: 2026-07-26T18:14:10-05:00
+--- initial_forward_displacement.txt ---
+data: -0.00012631222991574438
+---
+--- initial_trigger_displacement.txt ---
+data: -1.0
+---
+--- trigger_displacement.txt ---
+data: 0.12069371232160653
+---
+--- final_forward_displacement.txt ---
+data: 1.7536719616567258
+---
+--- final_ground_truth_odom.txt ---
+header:
+  stamp:
+    sec: 120
+    nanosec: 766672965
+  frame_id: odom
+child_frame_id: base_link
+pose:
+  pose:
+    position:
+      x: 1.753625250950267
+      y: -0.15159382439017224
+      z: 0.02938065329850027
+    orientation:
+      x: -0.0022636812025806177
+      y: 0.0007676750962270926
+      z: 0.19772064759456892
+      w: 0.9802554931940672
+  covariance:
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+twist:
+  twist:
+    linear:
+      x: 5.458234591060318e-05
+      y: -0.00034505236544646323
+      z: 0.0
+    angular:
+      x: 0.0
+      y: 0.0
+      z: 0.0040986123494803905
+  covariance:
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+---
+--- final_amcl_pose.txt ---
+header:
+  stamp:
+    sec: 109
+    nanosec: 266703614
+  frame_id: map
+pose:
+  pose:
+    position:
+      x: 1.0926264896468365
+      y: -0.2548224679191903
+      z: 0.0
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.2398147169492217
+      w: 0.9708186759300445
+  covariance:
+  - 0.026077406755550925
+  - 0.007066171378932562
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0070661713789326175
+  - 0.03714538032047589
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.052079503316504724
+---
+==================================================
+V_stage3_C1_DWB_DYNAMIC_R07_20260726_181918
+--- navigate_to_pose_action.txt ---
+Waiting for an action server to become available...
+Sending goal:
+     pose:
+  header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: map
+  pose:
+    position:
+      x: 1.2091
+      y: -0.0364
+      z: 0.0
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+behavior_tree: ''
+
+Goal accepted with ID: a394f3fef5914465bc6cf0b9e15c0d5d
+
+Feedback:
+    current_pose:
+  header:
+    stamp:
+      sec: 102
+      nanosec: 250005332
+    frame_id: map
+  pose:
+    position:
+      x: -0.6962289668804975
+      y: -0.03901467145738466
+      z: 0.0
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: -0.0014903425321762182
+      w: 0.9999988894389517
+navigation_time:
+  sec: 0
+  nanosec: 16666668
+estimated_time_remaining:
+  sec: 0
+  nanosec: 0
+number_of_recoveries: 0
+distance_remaining: 0.0
+
+Feedback:
+    current_pose:
+  header:
+    stamp:
+      sec: 102
+      nanosec: 283338667
+    frame_id: map
+  pose:
+    position:
+      x: -0.6962289668804975
+      y: -0.03901467145738466
+      z: 0.0
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: -0.0014903658875261329
+      w: 0.999998889404144
+navigation_time:
+  sec: 0
+  nanosec: 16666668
+estimated_time_remaining:
+  sec: 0
+  nanosec: 0
+number_of_recoveries: 0
+distance_remaining: 0.0
+
+Feedback:
+    current_pose:
+  header:
+    stamp:
+      sec: 102
+      nanosec: 283338667
+    frame_id: map
+  pose:
+    position:
+      x: -0.6962289668804975
+      y: -0.03901467145738466
+      z: 0.0
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: -0.0014903658875261329
+      w: 0.999998889404144
+navigation_time:
+  sec: 0
+  nanosec: 16666668
+estimated_time_remaining:
+  sec: 0
+  nanosec: 0
+number_of_recoveries: 0
+distance_remaining: 1.9252936840057373
+
+Feedback:
+    current_pose:
+  header:
+    stamp:
+      sec: 102
+      nanosec: 283338667
+    frame_id: map
+  pose:
+    position:
+      x: -0.6962289668804975
+      y: -0.03901467145738466
+      z: 0.0
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: -0.0014903658875261329
+      w: 0.999998889404144
+navigation_time:
+  sec: 0
+  nanosec: 33333335
+--- RUN_NOTES.txt ---
+Jackson Stage 3 Virtual Dynamic Cylinder Official Run — INFL025 COST10
+Run: R07
+Result: SUCCEEDED
+Obstacle contact: no
+Manual cancellation: no
+Operator intervention during navigation: no
+Controller: DWBLocalPlanner
+min_speed_theta: 0.30 rad/s
+xy_goal_tolerance: 0.25 m
+yaw_goal_tolerance: 0.40 rad
+robot_radius: 0.16 m
+inflation_radius: 0.25 m
+cost_scaling_factor: 10.0
+Start: x=-0.6909 m, y=-0.0364 m, yaw=0 rad
+Goal: x=1.2091 m, y=-0.0364 m, yaw=0 rad
+Cylinder: x=0.6091 m, y=-0.0364 m, parked z=-1.0000 m, inserted z=0.1900 m
+Nominal trigger: 0.120 m ground-truth forward displacement
+Completion: 2026-07-26T18:20:30-05:00
+--- initial_forward_displacement.txt ---
+data: -0.00012631209902051342
+---
+--- initial_trigger_displacement.txt ---
+data: -1.0
+---
+--- trigger_displacement.txt ---
+data: 0.120091209419496
+---
+--- final_forward_displacement.txt ---
+data: 1.760634495774724
+---
+--- final_ground_truth_odom.txt ---
+header:
+  stamp:
+    sec: 132
+    nanosec: 333340235
+  frame_id: odom
+child_frame_id: base_link
+pose:
+  pose:
+    position:
+      x: 1.7605873024955778
+      y: -0.136144595685447
+      z: 0.029318755778308225
+    orientation:
+      x: -0.004428934287833584
+      y: -0.0004484493490335956
+      z: 0.18652037782796693
+      w: 0.9824410069256921
+  covariance:
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+twist:
+  twist:
+    linear:
+      x: -0.00035006849793717265
+      y: 1.72065101651242e-05
+      z: 0.0
+    angular:
+      x: 0.0
+      y: 0.0
+      z: 0.00034671404864639044
+  covariance:
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+---
+--- final_amcl_pose.txt ---
+header:
+  stamp:
+    sec: 116
+    nanosec: 466703990
+  frame_id: map
+pose:
+  pose:
+    position:
+      x: 1.0833327556885621
+      y: -0.21836030236070886
+      z: 0.0
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.25810493037352106
+      w: 0.966116889882834
+  covariance:
+  - 0.02871428214426941
+  - 0.01577930976543901
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.01577930976543901
+  - 0.06643643129650084
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.07016195783286211
+---
+==================================================
+V_stage3_C1_DWB_DYNAMIC_R08_20260726_182515
+--- navigate_to_pose_action.txt ---
+Waiting for an action server to become available...
+Sending goal:
+     pose:
+  header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: map
+  pose:
+    position:
+      x: 1.2091
+      y: -0.0364
+      z: 0.0
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+behavior_tree: ''
+
+Goal accepted with ID: 6f4043cab5c44ebf88e9dac0c505f074
+
+Feedback:
+    current_pose:
+  header:
+    stamp:
+      sec: 101
+      nanosec: 283338615
+    frame_id: map
+  pose:
+    position:
+      x: -0.6956372234007975
+      y: -0.0406446917830402
+      z: 0.0
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: -0.0008596491301776962
+      w: 0.9999996305016183
+navigation_time:
+  sec: 0
+  nanosec: 0
+estimated_time_remaining:
+  sec: 0
+  nanosec: 0
+number_of_recoveries: 0
+distance_remaining: 0.0
+
+Feedback:
+    current_pose:
+  header:
+    stamp:
+      sec: 101
+      nanosec: 283338615
+    frame_id: map
+  pose:
+    position:
+      x: -0.6956372234007975
+      y: -0.0406446917830402
+      z: 0.0
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: -0.0008596491301776962
+      w: 0.9999996305016183
+navigation_time:
+  sec: 0
+  nanosec: 0
+estimated_time_remaining:
+  sec: 0
+  nanosec: 0
+number_of_recoveries: 0
+distance_remaining: 0.0
+
+Feedback:
+    current_pose:
+  header:
+    stamp:
+      sec: 101
+      nanosec: 283338615
+    frame_id: map
+  pose:
+    position:
+      x: -0.6956372234007975
+      y: -0.0406446917830402
+      z: 0.0
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: -0.0008596491301776962
+      w: 0.9999996305016183
+navigation_time:
+  sec: 0
+  nanosec: 16666667
+estimated_time_remaining:
+  sec: 0
+  nanosec: 0
+number_of_recoveries: 0
+distance_remaining: 1.9252936840057373
+
+Feedback:
+    current_pose:
+  header:
+    stamp:
+      sec: 101
+      nanosec: 283338615
+    frame_id: map
+  pose:
+    position:
+      x: -0.6956372234007975
+      y: -0.0406446917830402
+      z: 0.0
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: -0.0008596491301776962
+      w: 0.9999996305016183
+navigation_time:
+  sec: 0
+  nanosec: 16666667
+--- RUN_NOTES.txt ---
+Jackson Stage 3 Virtual Dynamic Cylinder Official Run — INFL025 COST10
+Run: R08
+Result: SUCCEEDED
+Obstacle contact: no
+Manual cancellation: no
+Operator intervention during navigation: no
+Controller: DWBLocalPlanner
+min_speed_theta: 0.30 rad/s
+xy_goal_tolerance: 0.25 m
+yaw_goal_tolerance: 0.40 rad
+robot_radius: 0.16 m
+inflation_radius: 0.25 m
+cost_scaling_factor: 10.0
+Start: x=-0.6909 m, y=-0.0364 m, yaw=0 rad
+Goal: x=1.2091 m, y=-0.0364 m, yaw=0 rad
+Cylinder: x=0.6091 m, y=-0.0364 m, parked z=-1.0000 m, inserted z=0.1900 m
+Nominal trigger: 0.120 m ground-truth forward displacement
+Completion: 2026-07-26T18:26:19-05:00
+--- initial_forward_displacement.txt ---
+data: -0.00012631233165033649
+---
+--- initial_trigger_displacement.txt ---
+data: -1.0
+---
+--- trigger_displacement.txt ---
+data: 0.12050897809670374
+---
+--- final_forward_displacement.txt ---
+data: 1.7622048965155892
+---
+--- final_ground_truth_odom.txt ---
+header:
+  stamp:
+    sec: 126
+    nanosec: 100006576
+  frame_id: odom
+child_frame_id: base_link
+pose:
+  pose:
+    position:
+      x: 1.7621581843850505
+      y: -0.14610318459039867
+      z: 0.029418553639789825
+    orientation:
+      x: -0.0046813528079621535
+      y: -0.00019541152137522784
+      z: 0.19108001967586186
+      w: 0.9815632800950211
+  covariance:
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+twist:
+  twist:
+    linear:
+      x: 0.00044080885709263384
+      y: -0.0005126348114572465
+      z: 0.0
+    angular:
+      x: 0.0
+      y: 0.0
+      z: 0.006752463057637215
+  covariance:
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+---
+--- final_amcl_pose.txt ---
+header:
+  stamp:
+    sec: 112
+    nanosec: 466703781
+  frame_id: map
+pose:
+  pose:
+    position:
+      x: 1.0963149139967032
+      y: -0.26038763746111476
+      z: 0.0
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.2737343182298774
+      w: 0.9618053457031855
+  covariance:
+  - 0.021446349414723898
+  - 0.005603962267399509
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.005603962267399509
+  - 0.04191973063324447
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.05879497591622419
+---
+==================================================
+V_stage3_C1_DWB_DYNAMIC_R09_20260726_185320
+--- navigate_to_pose_action.txt ---
+Waiting for an action server to become available...
+Sending goal:
+     pose:
+  header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: map
+  pose:
+    position:
+      x: 1.2091
+      y: -0.0364
+      z: 0.0
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+behavior_tree: ''
+
+Goal accepted with ID: d00c4bd1b4624cc2a89297b9dad67e32
+
+Feedback:
+    current_pose:
+  header:
+    stamp:
+      sec: 102
+      nanosec: 816672028
+    frame_id: map
+  pose:
+    position:
+      x: -0.6962893834780854
+      y: -0.03900786674254896
+      z: 0.0
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: -0.0009174227455517258
+      w: 0.9999995791676642
+navigation_time:
+  sec: 0
+  nanosec: 0
+estimated_time_remaining:
+  sec: 0
+  nanosec: 0
+number_of_recoveries: 0
+distance_remaining: 0.0
+
+Feedback:
+    current_pose:
+  header:
+    stamp:
+      sec: 102
+      nanosec: 816672028
+    frame_id: map
+  pose:
+    position:
+      x: -0.6962893834780854
+      y: -0.03900786674254896
+      z: 0.0
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: -0.0009174227455517258
+      w: 0.9999995791676642
+navigation_time:
+  sec: 0
+  nanosec: 0
+estimated_time_remaining:
+  sec: 0
+  nanosec: 0
+number_of_recoveries: 0
+distance_remaining: 0.0
+
+Feedback:
+    current_pose:
+  header:
+    stamp:
+      sec: 102
+      nanosec: 850005364
+    frame_id: map
+  pose:
+    position:
+      x: -0.6962893834780854
+      y: -0.03900786674254896
+      z: 0.0
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: -0.0009177922923063304
+      w: 0.9999995788285654
+navigation_time:
+  sec: 0
+  nanosec: 16666667
+estimated_time_remaining:
+  sec: 0
+  nanosec: 0
+number_of_recoveries: 0
+distance_remaining: 1.9252936840057373
+
+Feedback:
+    current_pose:
+  header:
+    stamp:
+      sec: 102
+      nanosec: 850005364
+    frame_id: map
+  pose:
+    position:
+      x: -0.6962893834780854
+      y: -0.03900786674254896
+      z: 0.0
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: -0.0009177922923063304
+      w: 0.9999995788285654
+navigation_time:
+  sec: 0
+  nanosec: 16666667
+--- RUN_NOTES.txt ---
+Jackson Stage 3 Virtual Dynamic Cylinder Official Run — INFL025 COST10
+Run: R09
+Result: SUCCEEDED
+Obstacle contact: no
+Manual cancellation: no
+Operator intervention during navigation: no
+Controller: DWBLocalPlanner
+min_speed_theta: 0.30 rad/s
+xy_goal_tolerance: 0.25 m
+yaw_goal_tolerance: 0.40 rad
+robot_radius: 0.16 m
+inflation_radius: 0.25 m
+cost_scaling_factor: 10.0
+Start: x=-0.6909 m, y=-0.0364 m, yaw=0 rad
+Goal: x=1.2091 m, y=-0.0364 m, yaw=0 rad
+Cylinder: x=0.6091 m, y=-0.0364 m, parked z=-1.0000 m, inserted z=0.1900 m
+Nominal trigger: 0.120 m ground-truth forward displacement
+Completion: 2026-07-26T18:54:25-05:00
+--- initial_forward_displacement.txt ---
+data: -0.00012631186987194825
+---
+--- initial_trigger_displacement.txt ---
+data: -1.0
+---
+--- trigger_displacement.txt ---
+data: 0.12317225331031714
+---
+--- final_forward_displacement.txt ---
+data: 1.7579149805668568
+---
+--- final_ground_truth_odom.txt ---
+header:
+  stamp:
+    sec: 124
+    nanosec: 966673184
+  frame_id: odom
+child_frame_id: base_link
+pose:
+  pose:
+    position:
+      x: 1.7578680324569653
+      y: -0.1122789540974155
+      z: 0.029282429715624676
+    orientation:
+      x: -0.004855518504162858
+      y: -0.0002458538375448309
+      z: 0.20809670382662757
+      w: 0.9780961738768019
+  covariance:
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+twist:
+  twist:
+    linear:
+      x: -0.00043584886589087546
+      y: 0.00022850606183055788
+      z: 0.0
+    angular:
+      x: 0.0
+      y: 0.0
+      z: -0.004995211027562618
+  covariance:
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+---
+--- final_amcl_pose.txt ---
+header:
+  stamp:
+    sec: 114
+    nanosec: 66703865
+  frame_id: map
+pose:
+  pose:
+    position:
+      x: 1.09626946900175
+      y: -0.24543835557098112
+      z: 0.0
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.27533466738215395
+      w: 0.9613484388802838
+  covariance:
+  - 0.025759088069398972
+  - 0.005801959470127793
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.005801959470127849
+  - 0.04068808892248199
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.06446200001055886
+---
+==================================================
+V_stage3_C1_DWB_DYNAMIC_R10_20260726_185849
+--- navigate_to_pose_action.txt ---
+Waiting for an action server to become available...
+Sending goal:
+     pose:
+  header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: map
+  pose:
+    position:
+      x: 1.2091
+      y: -0.0364
+      z: 0.0
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+behavior_tree: ''
+
+Goal accepted with ID: 54ccfe003ed340bfa3eaae3ee10aa4be
+
+Feedback:
+    current_pose:
+  header:
+    stamp:
+      sec: 110
+      nanosec: 750005776
+    frame_id: map
+  pose:
+    position:
+      x: -0.6954739162996956
+      y: -0.03861503645936199
+      z: 0.0
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: -0.0011117529501568062
+      w: 0.9999993820024979
+navigation_time:
+  sec: 0
+  nanosec: 0
+estimated_time_remaining:
+  sec: 0
+  nanosec: 0
+number_of_recoveries: 0
+distance_remaining: 0.0
+
+Feedback:
+    current_pose:
+  header:
+    stamp:
+      sec: 110
+      nanosec: 750005776
+    frame_id: map
+  pose:
+    position:
+      x: -0.6954739162996956
+      y: -0.03861503645936199
+      z: 0.0
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: -0.0011117529501568062
+      w: 0.9999993820024979
+navigation_time:
+  sec: 0
+  nanosec: 0
+estimated_time_remaining:
+  sec: 0
+  nanosec: 0
+number_of_recoveries: 0
+distance_remaining: 0.0
+
+Feedback:
+    current_pose:
+  header:
+    stamp:
+      sec: 110
+      nanosec: 783339111
+    frame_id: map
+  pose:
+    position:
+      x: -0.6954739162996956
+      y: -0.03861503645936199
+      z: 0.0
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: -0.0011114460353372436
+      w: 0.9999993823436644
+navigation_time:
+  sec: 0
+  nanosec: 16666667
+estimated_time_remaining:
+  sec: 0
+  nanosec: 0
+number_of_recoveries: 0
+distance_remaining: 1.9252936840057373
+
+Feedback:
+    current_pose:
+  header:
+    stamp:
+      sec: 110
+      nanosec: 783339111
+    frame_id: map
+  pose:
+    position:
+      x: -0.6954739162996956
+      y: -0.03861503645936199
+      z: 0.0
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: -0.0011114460353372436
+      w: 0.9999993823436644
+navigation_time:
+  sec: 0
+  nanosec: 16666667
+--- RUN_NOTES.txt ---
+Jackson Stage 3 Virtual Dynamic Cylinder Official Run — INFL025 COST10
+Run: R10
+Result: SUCCEEDED
+Obstacle contact: no
+Manual cancellation: no
+Operator intervention during navigation: no
+Controller: DWBLocalPlanner
+min_speed_theta: 0.30 rad/s
+xy_goal_tolerance: 0.25 m
+yaw_goal_tolerance: 0.40 rad
+robot_radius: 0.16 m
+inflation_radius: 0.25 m
+cost_scaling_factor: 10.0
+Start: x=-0.6909 m, y=-0.0364 m, yaw=0 rad
+Goal: x=1.2091 m, y=-0.0364 m, yaw=0 rad
+Cylinder: x=0.6091 m, y=-0.0364 m, parked z=-1.0000 m, inserted z=0.1900 m
+Nominal trigger: 0.120 m ground-truth forward displacement
+Completion: 2026-07-26T18:59:54-05:00
+--- initial_forward_displacement.txt ---
+data: -0.00012625247353223898
+---
+--- initial_trigger_displacement.txt ---
+data: -1.0
+---
+--- trigger_displacement.txt ---
+data: 0.12087606781469547
+---
+--- final_forward_displacement.txt ---
+data: 1.7650331955432113
+---
+--- final_ground_truth_odom.txt ---
+header:
+  stamp:
+    sec: 136
+    nanosec: 616673791
+  frame_id: odom
+child_frame_id: base_link
+pose:
+  pose:
+    position:
+      x: 1.7649864843062089
+      y: -0.14663309715599443
+      z: 0.029466137878773314
+    orientation:
+      x: -0.004914218926296033
+      y: -0.00019709282942254606
+      z: 0.20562215246489352
+      w: 0.9786190995594073
+  covariance:
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+twist:
+  twist:
+    linear:
+      x: 6.962499901419505e-05
+      y: -0.00036038816324435174
+      z: 0.0
+    angular:
+      x: 0.0
+      y: 0.0
+      z: 0.0035857155453413725
+  covariance:
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+---
+--- final_amcl_pose.txt ---
+header:
+  stamp:
+    sec: 122
+    nanosec: 566704308
+  frame_id: map
+pose:
+  pose:
+    position:
+      x: 1.0901405866944527
+      y: -0.26443134576935245
+      z: 0.0
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.25694229472647634
+      w: 0.9664267469294776
+  covariance:
+  - 0.025637189633200386
+  - 0.013054636827730226
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.013054636827730226
+  - 0.04741261811272167
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.060728706666690994
+---
+==================================================
+V_stage3_C1_DWB_DYNAMIC_R11_20260726_190434
+--- navigate_to_pose_action.txt ---
+Waiting for an action server to become available...
+Sending goal:
+     pose:
+  header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: map
+  pose:
+    position:
+      x: 1.2091
+      y: -0.0364
+      z: 0.0
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+behavior_tree: ''
+
+Goal accepted with ID: b34c20c8d386490eaa10bf1975a03069
+
+Feedback:
+    current_pose:
+  header:
+    stamp:
+      sec: 103
+      nanosec: 366672057
+    frame_id: map
+  pose:
+    position:
+      x: -0.6963030928698567
+      y: -0.040246469540496474
+      z: 0.0
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: -0.0020093403498921674
+      w: 0.9999979812736416
+navigation_time:
+  sec: 0
+  nanosec: 0
+estimated_time_remaining:
+  sec: 0
+  nanosec: 0
+number_of_recoveries: 0
+distance_remaining: 0.0
+
+Feedback:
+    current_pose:
+  header:
+    stamp:
+      sec: 103
+      nanosec: 366672057
+    frame_id: map
+  pose:
+    position:
+      x: -0.6963030928698567
+      y: -0.040246469540496474
+      z: 0.0
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: -0.0020093403498921674
+      w: 0.9999979812736416
+navigation_time:
+  sec: 0
+  nanosec: 0
+estimated_time_remaining:
+  sec: 0
+  nanosec: 0
+number_of_recoveries: 0
+distance_remaining: 0.0
+
+Feedback:
+    current_pose:
+  header:
+    stamp:
+      sec: 103
+      nanosec: 383338725
+    frame_id: map
+  pose:
+    position:
+      x: -0.6963030928698567
+      y: -0.040246469540496474
+      z: 0.0
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: -0.0020048871155793377
+      w: 0.9999979902118072
+navigation_time:
+  sec: 0
+  nanosec: 16666667
+estimated_time_remaining:
+  sec: 0
+  nanosec: 0
+number_of_recoveries: 0
+distance_remaining: 1.9252936840057373
+
+Feedback:
+    current_pose:
+  header:
+    stamp:
+      sec: 103
+      nanosec: 383338725
+    frame_id: map
+  pose:
+    position:
+      x: -0.6963030928698567
+      y: -0.040246469540496474
+      z: 0.0
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: -0.0020048871155793377
+      w: 0.9999979902118072
+navigation_time:
+  sec: 0
+  nanosec: 16666667
+--- RUN_NOTES.txt ---
+Jackson Stage 3 Virtual Dynamic Cylinder Official Run — INFL025 COST10
+Run: R11
+Result: SUCCEEDED
+Obstacle contact: no
+Manual cancellation: no
+Operator intervention during navigation: no
+Controller: DWBLocalPlanner
+min_speed_theta: 0.30 rad/s
+xy_goal_tolerance: 0.25 m
+yaw_goal_tolerance: 0.40 rad
+robot_radius: 0.16 m
+inflation_radius: 0.25 m
+cost_scaling_factor: 10.0
+Start: x=-0.6909 m, y=-0.0364 m, yaw=0 rad
+Goal: x=1.2091 m, y=-0.0364 m, yaw=0 rad
+Cylinder: x=0.6091 m, y=-0.0364 m, parked z=-1.0000 m, inserted z=0.1900 m
+Nominal trigger: 0.120 m ground-truth forward displacement
+Completion: 2026-07-26T19:05:38-05:00
+--- initial_forward_displacement.txt ---
+data: -0.00012625307349601786
+---
+--- initial_trigger_displacement.txt ---
+data: -1.0
+---
+--- trigger_displacement.txt ---
+data: 0.1230616981005057
+---
+--- final_forward_displacement.txt ---
+data: 1.7583518001758787
+---
+--- final_ground_truth_odom.txt ---
+header:
+  stamp:
+    sec: 127
+    nanosec: 900006670
+  frame_id: odom
+child_frame_id: base_link
+pose:
+  pose:
+    position:
+      x: 1.7583048504591214
+      y: -0.16216357961298408
+      z: 0.029207247763836975
+    orientation:
+      x: -0.003672154790873232
+      y: -0.0008834261702287445
+      z: 0.1766711341755362
+      w: 0.984262691148315
+  covariance:
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+twist:
+  twist:
+    linear:
+      x: 0.00013108064013067633
+      y: 0.00023522766423411667
+      z: 0.0
+    angular:
+      x: 0.0
+      y: 0.0
+      z: -0.0050260513089597225
+  covariance:
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+---
+--- final_amcl_pose.txt ---
+header:
+  stamp:
+    sec: 116
+    nanosec: 966704016
+  frame_id: map
+pose:
+  pose:
+    position:
+      x: 1.0669426898110368
+      y: -0.22272684421219338
+      z: 0.0
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.20861080520524955
+      w: 0.9779987382157593
+  covariance:
+  - 0.0317185189844118
+  - 0.008773150694713572
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0087731506947136
+  - 0.042785963969871735
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.07716656789712731
+---
+==================================================
+V_stage3_C1_DWB_DYNAMIC_R12_20260726_190953
+--- navigate_to_pose_action.txt ---
+Waiting for an action server to become available...
+Sending goal:
+     pose:
+  header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: map
+  pose:
+    position:
+      x: 1.2091
+      y: -0.0364
+      z: 0.0
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+behavior_tree: ''
+
+Goal accepted with ID: 3652d594e0aa49aeb2e3e3bc4057a3e8
+
+Feedback:
+    current_pose:
+  header:
+    stamp:
+      sec: 104
+      nanosec: 916672138
+    frame_id: map
+  pose:
+    position:
+      x: -0.6959287445273246
+      y: -0.038460096838246194
+      z: 0.0
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: -0.0014271877623226086
+      w: 0.9999989815670269
+navigation_time:
+  sec: 0
+  nanosec: 0
+estimated_time_remaining:
+  sec: 0
+  nanosec: 0
+number_of_recoveries: 0
+distance_remaining: 0.0
+
+Feedback:
+    current_pose:
+  header:
+    stamp:
+      sec: 104
+      nanosec: 916672138
+    frame_id: map
+  pose:
+    position:
+      x: -0.6959287445273246
+      y: -0.038460096838246194
+      z: 0.0
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: -0.0014271877623226086
+      w: 0.9999989815670269
+navigation_time:
+  sec: 0
+  nanosec: 0
+estimated_time_remaining:
+  sec: 0
+  nanosec: 0
+number_of_recoveries: 0
+distance_remaining: 0.0
+
+Feedback:
+    current_pose:
+  header:
+    stamp:
+      sec: 104
+      nanosec: 916672138
+    frame_id: map
+  pose:
+    position:
+      x: -0.6959287445273246
+      y: -0.038460096838246194
+      z: 0.0
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: -0.0014271877623226086
+      w: 0.9999989815670269
+navigation_time:
+  sec: 0
+  nanosec: 0
+estimated_time_remaining:
+  sec: 0
+  nanosec: 0
+number_of_recoveries: 0
+distance_remaining: 1.9252936840057373
+
+Feedback:
+    current_pose:
+  header:
+    stamp:
+      sec: 104
+      nanosec: 950005473
+    frame_id: map
+  pose:
+    position:
+      x: -0.6959287445273246
+      y: -0.038460096838246194
+      z: 0.0
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: -0.0014271991163272155
+      w: 0.9999989815508227
+navigation_time:
+  sec: 0
+  nanosec: 16666668
+--- RUN_NOTES.txt ---
+Jackson Stage 3 Virtual Dynamic Cylinder Official Run — INFL025 COST10
+Run: R12
+Result: SUCCEEDED
+Obstacle contact: no
+Manual cancellation: no
+Operator intervention during navigation: no
+Controller: DWBLocalPlanner
+min_speed_theta: 0.30 rad/s
+xy_goal_tolerance: 0.25 m
+yaw_goal_tolerance: 0.40 rad
+robot_radius: 0.16 m
+inflation_radius: 0.25 m
+cost_scaling_factor: 10.0
+Start: x=-0.6909 m, y=-0.0364 m, yaw=0 rad
+Goal: x=1.2091 m, y=-0.0364 m, yaw=0 rad
+Cylinder: x=0.6091 m, y=-0.0364 m, parked z=-1.0000 m, inserted z=0.1900 m
+Nominal trigger: 0.120 m ground-truth forward displacement
+Completion: 2026-07-26T19:10:58-05:00
+--- initial_forward_displacement.txt ---
+data: -0.00012631236810113506
+---
+--- initial_trigger_displacement.txt ---
+data: -1.0
+---
+--- trigger_displacement.txt ---
+data: 0.12306378296954258
+---
+--- final_forward_displacement.txt ---
+data: 1.7594024536590964
+---
+--- final_ground_truth_odom.txt ---
+A message was lost!!!
+	total count change:4
+	total count: 4---
+header:
+  stamp:
+    sec: 131
+    nanosec: 650006866
+  frame_id: odom
+child_frame_id: base_link
+pose:
+  pose:
+    position:
+      x: 1.7593557441899987
+      y: -0.14865337058119546
+      z: 0.029531303530958192
+    orientation:
+      x: -0.0027914131299293416
+      y: 0.0009713653169808929
+      z: 0.20148358208464842
+      w: 0.9794874325954865
+  covariance:
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+twist:
+  twist:
+    linear:
+      x: -0.00021653639851137996
+      y: -0.00025456424918957055
+      z: 0.0
+    angular:
+      x: 0.0
+      y: 0.0
+      z: 0.0006876825937069952
+  covariance:
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+---
+--- final_amcl_pose.txt ---
+header:
+  stamp:
+    sec: 118
+    nanosec: 566704100
+  frame_id: map
+pose:
+  pose:
+    position:
+      x: 1.080093984809725
+      y: -0.25371987785619904
+      z: 0.0
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.21863148547550998
+      w: 0.9758074982079057
+  covariance:
+  - 0.02374408948853146
+  - 0.00800517883084656
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.008005178830846504
+  - 0.05679465465763239
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.07032256738215688
+---
+==================================================
+V_stage3_C1_DWB_DYNAMIC_R13_20260726_191515
+--- navigate_to_pose_action.txt ---
+Waiting for an action server to become available...
+Sending goal:
+     pose:
+  header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: map
+  pose:
+    position:
+      x: 1.2091
+      y: -0.0364
+      z: 0.0
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+behavior_tree: ''
+
+Goal accepted with ID: ed78cbd8c96841fc8a722bb7d2c2c6c5
+
+Feedback:
+    current_pose:
+  header:
+    stamp:
+      sec: 101
+      nanosec: 550005296
+    frame_id: map
+  pose:
+    position:
+      x: -0.6952892358413352
+      y: -0.04075974819448315
+      z: 0.0
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: -0.0012959767561653052
+      w: 0.999999160221771
+navigation_time:
+  sec: 0
+  nanosec: 0
+estimated_time_remaining:
+  sec: 0
+  nanosec: 0
+number_of_recoveries: 0
+distance_remaining: 0.0
+
+Feedback:
+    current_pose:
+  header:
+    stamp:
+      sec: 101
+      nanosec: 550005296
+    frame_id: map
+  pose:
+    position:
+      x: -0.6952892358413352
+      y: -0.04075974819448315
+      z: 0.0
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: -0.0012959767561653052
+      w: 0.999999160221771
+navigation_time:
+  sec: 0
+  nanosec: 0
+estimated_time_remaining:
+  sec: 0
+  nanosec: 0
+number_of_recoveries: 0
+distance_remaining: 0.0
+
+Feedback:
+    current_pose:
+  header:
+    stamp:
+      sec: 101
+      nanosec: 550005296
+    frame_id: map
+  pose:
+    position:
+      x: -0.6952892358413352
+      y: -0.04075974819448315
+      z: 0.0
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: -0.0012959767561653052
+      w: 0.999999160221771
+navigation_time:
+  sec: 0
+  nanosec: 0
+estimated_time_remaining:
+  sec: 0
+  nanosec: 0
+number_of_recoveries: 0
+distance_remaining: 1.9252936840057373
+
+Feedback:
+    current_pose:
+  header:
+    stamp:
+      sec: 101
+      nanosec: 550005296
+    frame_id: map
+  pose:
+    position:
+      x: -0.6952892358413352
+      y: -0.04075974819448315
+      z: 0.0
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: -0.0012959767561653052
+      w: 0.999999160221771
+navigation_time:
+  sec: 0
+  nanosec: 16666667
+--- RUN_NOTES.txt ---
+Jackson Stage 3 Virtual Dynamic Cylinder Official Run — INFL025 COST10
+Run: R13
+Result: SUCCEEDED
+Obstacle contact: no
+Manual cancellation: no
+Operator intervention during navigation: no
+Controller: DWBLocalPlanner
+min_speed_theta: 0.30 rad/s
+xy_goal_tolerance: 0.25 m
+yaw_goal_tolerance: 0.40 rad
+robot_radius: 0.16 m
+inflation_radius: 0.25 m
+cost_scaling_factor: 10.0
+Start: x=-0.6909 m, y=-0.0364 m, yaw=0 rad
+Goal: x=1.2091 m, y=-0.0364 m, yaw=0 rad
+Cylinder: x=0.6091 m, y=-0.0364 m, parked z=-1.0000 m, inserted z=0.1900 m
+Nominal trigger: 0.120 m ground-truth forward displacement
+Completion: 2026-07-26T19:17:36-05:00
+--- initial_forward_displacement.txt ---
+data: -0.00012625264087826854
+---
+--- initial_trigger_displacement.txt ---
+data: -1.0
+---
+--- trigger_displacement.txt ---
+data: 0.12126399836093223
+---
+--- final_forward_displacement.txt ---
+data: 1.717144828633715
+---
+--- final_ground_truth_odom.txt ---
+header:
+  stamp:
+    sec: 172
+    nanosec: 316675653
+  frame_id: odom
+child_frame_id: base_link
+pose:
+  pose:
+    position:
+      x: 1.7170978792877727
+      y: 0.2266270157517266
+      z: 0.028095592794980816
+    orientation:
+      x: 0.00245744621529895
+      y: -0.0004998630659679285
+      z: -0.16116707604751349
+      w: 0.9869239508155171
+  covariance:
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+twist:
+  twist:
+    linear:
+      x: 0.0006378170219250023
+      y: 0.0011211809469386935
+      z: 0.0
+    angular:
+      x: 0.0
+      y: 0.0
+      z: -0.00855597946792841
+  covariance:
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+---
+--- final_amcl_pose.txt ---
+header:
+  stamp:
+    sec: 158
+    nanosec: 566706186
+  frame_id: map
+pose:
+  pose:
+    position:
+      x: 0.9575843792675038
+      y: 0.18786793328508772
+      z: 0.0
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: -0.27479289740168417
+      w: 0.9615034391709618
+  covariance:
+  - 0.023979382020526963
+  - -0.0006007946533777564
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - -0.0006007946533777564
+  - 0.020825872371857145
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.04334561746170254
+---
+==================================================
+V_stage3_C1_DWB_DYNAMIC_R14_20260726_192219
+--- navigate_to_pose_action.txt ---
+Waiting for an action server to become available...
+Sending goal:
+     pose:
+  header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: map
+  pose:
+    position:
+      x: 1.2091
+      y: -0.0364
+      z: 0.0
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+behavior_tree: ''
+
+Goal accepted with ID: 1ff1e9938f2e4486b5e2ea147a06fe49
+
+Feedback:
+    current_pose:
+  header:
+    stamp:
+      sec: 106
+      nanosec: 350005546
+    frame_id: map
+  pose:
+    position:
+      x: -0.6954154573041482
+      y: -0.03943689194168428
+      z: 0.0
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: -0.0015506623281233986
+      w: 0.9999987977224494
+navigation_time:
+  sec: 0
+  nanosec: 0
+estimated_time_remaining:
+  sec: 0
+  nanosec: 0
+number_of_recoveries: 0
+distance_remaining: 0.0
+
+Feedback:
+    current_pose:
+  header:
+    stamp:
+      sec: 106
+      nanosec: 350005546
+    frame_id: map
+  pose:
+    position:
+      x: -0.6954154573041482
+      y: -0.03943689194168428
+      z: 0.0
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: -0.0015506623281233986
+      w: 0.9999987977224494
+navigation_time:
+  sec: 0
+  nanosec: 0
+estimated_time_remaining:
+  sec: 0
+  nanosec: 0
+number_of_recoveries: 0
+distance_remaining: 0.0
+
+Feedback:
+    current_pose:
+  header:
+    stamp:
+      sec: 106
+      nanosec: 350005546
+    frame_id: map
+  pose:
+    position:
+      x: -0.6954154573041482
+      y: -0.03943689194168428
+      z: 0.0
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: -0.0015506623281233986
+      w: 0.9999987977224494
+navigation_time:
+  sec: 0
+  nanosec: 0
+estimated_time_remaining:
+  sec: 0
+  nanosec: 0
+number_of_recoveries: 0
+distance_remaining: 1.9252936840057373
+
+Feedback:
+    current_pose:
+  header:
+    stamp:
+      sec: 106
+      nanosec: 400005549
+    frame_id: map
+  pose:
+    position:
+      x: -0.6954154573041482
+      y: -0.03943689194168428
+      z: 0.0
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: -0.0015507774783834975
+      w: 0.9999987975438833
+navigation_time:
+  sec: 0
+  nanosec: 16666668
+--- RUN_NOTES.txt ---
+Jackson Stage 3 Virtual Dynamic Cylinder Official Run — INFL025 COST10
+Run: R14
+Result: SUCCEEDED
+Obstacle contact: no
+Manual cancellation: no
+Operator intervention during navigation: no
+Controller: DWBLocalPlanner
+min_speed_theta: 0.30 rad/s
+xy_goal_tolerance: 0.25 m
+yaw_goal_tolerance: 0.40 rad
+robot_radius: 0.16 m
+inflation_radius: 0.25 m
+cost_scaling_factor: 10.0
+Start: x=-0.6909 m, y=-0.0364 m, yaw=0 rad
+Goal: x=1.2091 m, y=-0.0364 m, yaw=0 rad
+Cylinder: x=0.6091 m, y=-0.0364 m, parked z=-1.0000 m, inserted z=0.1900 m
+Nominal trigger: 0.120 m ground-truth forward displacement
+Completion: 2026-07-26T19:23:30-05:00
+--- initial_forward_displacement.txt ---
+data: -0.00012631185181037095
+---
+--- initial_trigger_displacement.txt ---
+data: -1.0
+---
+--- trigger_displacement.txt ---
+data: 0.12310182051168209
+---
+--- final_forward_displacement.txt ---
+data: 1.749573575280742
+---
+--- final_ground_truth_odom.txt ---
+header:
+  stamp:
+    sec: 136
+    nanosec: 83340430
+  frame_id: odom
+child_frame_id: base_link
+pose:
+  pose:
+    position:
+      x: 1.7495278310527331
+      y: -0.15812532361053985
+      z: 0.02923287733241807
+    orientation:
+      x: -0.0018386758452810898
+      y: 0.00030903528482241146
+      z: 0.17936153858589057
+      w: 0.9837814606122799
+  covariance:
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+twist:
+  twist:
+    linear:
+      x: -0.0005929435137659311
+      y: -0.00036027017631568015
+      z: 0.0
+    angular:
+      x: 0.0
+      y: 0.0
+      z: -0.023177897557616234
+  covariance:
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+---
+--- final_amcl_pose.txt ---
+header:
+  stamp:
+    sec: 117
+    nanosec: 466704042
+  frame_id: map
+pose:
+  pose:
+    position:
+      x: 1.0985438018044977
+      y: -0.24490249474283915
+      z: 0.0
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.2683688105203895
+      w: 0.9633162417087502
+  covariance:
+  - 0.021530264919550568
+  - 0.004703135250243129
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.004703135250243129
+  - 0.03180807865924901
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.05501206550616543
+---
+==================================================
+V_stage3_C1_DWB_DYNAMIC_R15_20260726_192820
+--- navigate_to_pose_action.txt ---
+Waiting for an action server to become available...
+Sending goal:
+     pose:
+  header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: map
+  pose:
+    position:
+      x: 1.2091
+      y: -0.0364
+      z: 0.0
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+behavior_tree: ''
+
+Goal accepted with ID: 7898815170434347aba411aef1972725
+
+Feedback:
+    current_pose:
+  header:
+    stamp:
+      sec: 117
+      nanosec: 183339444
+    frame_id: map
+  pose:
+    position:
+      x: -0.6949488439493768
+      y: -0.03914245008897857
+      z: 0.0
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: -0.001548472577259413
+      w: 0.99999880111562
+navigation_time:
+  sec: 0
+  nanosec: 0
+estimated_time_remaining:
+  sec: 0
+  nanosec: 0
+number_of_recoveries: 0
+distance_remaining: 0.0
+
+Feedback:
+    current_pose:
+  header:
+    stamp:
+      sec: 117
+      nanosec: 183339444
+    frame_id: map
+  pose:
+    position:
+      x: -0.6949488439493768
+      y: -0.03914245008897857
+      z: 0.0
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: -0.001548472577259413
+      w: 0.99999880111562
+navigation_time:
+  sec: 0
+  nanosec: 0
+estimated_time_remaining:
+  sec: 0
+  nanosec: 0
+number_of_recoveries: 0
+distance_remaining: 0.0
+
+Feedback:
+    current_pose:
+  header:
+    stamp:
+      sec: 117
+      nanosec: 183339444
+    frame_id: map
+  pose:
+    position:
+      x: -0.6949488439493768
+      y: -0.03914245008897857
+      z: 0.0
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: -0.001548472577259413
+      w: 0.99999880111562
+navigation_time:
+  sec: 0
+  nanosec: 0
+estimated_time_remaining:
+  sec: 0
+  nanosec: 0
+number_of_recoveries: 0
+distance_remaining: 1.9252936840057373
+
+Feedback:
+    current_pose:
+  header:
+    stamp:
+      sec: 117
+      nanosec: 183339444
+    frame_id: map
+  pose:
+    position:
+      x: -0.6949488439493768
+      y: -0.03914245008897857
+      z: 0.0
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: -0.001548472577259413
+      w: 0.99999880111562
+navigation_time:
+  sec: 0
+  nanosec: 0
+--- RUN_NOTES.txt ---
+Jackson Stage 3 Virtual Dynamic Cylinder Official Run — INFL025 COST10
+Run: R15
+Result: SUCCEEDED
+Obstacle contact: no
+Manual cancellation: no
+Operator intervention during navigation: no
+Controller: DWBLocalPlanner
+min_speed_theta: 0.30 rad/s
+xy_goal_tolerance: 0.25 m
+yaw_goal_tolerance: 0.40 rad
+robot_radius: 0.16 m
+inflation_radius: 0.25 m
+cost_scaling_factor: 10.0
+Start: x=-0.6909 m, y=-0.0364 m, yaw=0 rad
+Goal: x=1.2091 m, y=-0.0364 m, yaw=0 rad
+Cylinder: x=0.6091 m, y=-0.0364 m, parked z=-1.0000 m, inserted z=0.1900 m
+Nominal trigger: 0.120 m ground-truth forward displacement
+Completion: 2026-07-26T19:29:26-05:00
+--- initial_forward_displacement.txt ---
+data: -0.00012660981256100136
+---
+--- initial_trigger_displacement.txt ---
+data: -1.0
+---
+--- trigger_displacement.txt ---
+data: 0.1211796792284527
+---
+--- final_forward_displacement.txt ---
+data: 1.736918630534922
+---
+--- final_ground_truth_odom.txt ---
+header:
+  stamp:
+    sec: 141
+    nanosec: 266674034
+  frame_id: odom
+child_frame_id: base_link
+pose:
+  pose:
+    position:
+      x: 1.7368716820507344
+      y: -0.13914610176196374
+      z: 0.029284136133492226
+    orientation:
+      x: -0.004146960258286665
+      y: 0.001385977533017301
+      z: 0.20264949022705014
+      w: 0.9792415768836671
+  covariance:
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+twist:
+  twist:
+    linear:
+      x: 0.0005029452149756253
+      y: 0.0003523410705383867
+      z: 0.0
+    angular:
+      x: 0.0
+      y: 0.0
+      z: -0.0034629530273377895
+  covariance:
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+---
+--- final_amcl_pose.txt ---
+header:
+  stamp:
+    sec: 128
+    nanosec: 466704616
+  frame_id: map
+pose:
+  pose:
+    position:
+      x: 1.087880349852685
+      y: -0.2531040816919426
+      z: 0.0
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.2619047812914796
+      w: 0.9650937185251297
+  covariance:
+  - 0.02579172209447944
+  - 0.010671802407145714
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.010671802407145714
+  - 0.037679449049970545
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.05543152105269921
+---

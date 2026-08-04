@@ -1,0 +1,48 @@
+# ROS 2 and colcon
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+rosbags_analysis/
+
+# ROS 2 bags
+*.db3
+*.db3-wal
+*.db3-shm
+*.mcap
+*.bag
+*.active
+
+# Large archives: publish through GitHub Releases
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+
+# Raw datasets
+data/raw/
+bags/
+bag_files/
+
+# Simulation and temporary files
+*.log
+*.tmp
+.cache/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Backups and runtime outputs
+*.bak
+*.backup*
+*.before_*
+logs/
+results/raw/

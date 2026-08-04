@@ -1,0 +1,25 @@
+V17 Virtual Figure-8 EKF Closed-Loop Validation
+================================================
+
+Runs: 10 completed runs (R01-R10)
+Target loop radius: 0.500 m (1.000 m target diameter)
+Controller feedback: /odometry/filtered
+Independent reference: /ground_truth/odom
+
+Key results (mean across runs)
+--------------------------------
+Motion duration: 149.634 s
+Ground-truth path length: 6.3853 m
+Ground-truth closure error: 0.0708 m
+EKF closure error: 0.0192 m
+EKF position RMSE vs ground truth: 0.0863 m
+EKF yaw RMSE vs ground truth: 4.792 deg
+Cumulative rotational discrepancy D_rot: 6.500 deg
+Final cross-domain translational deviation D_trans: 0.0552 m
+
+Definitions
+-----------
+D_rot is the sum of the absolute CCW and CW loop-rotation differences
+between EKF and ground truth. D_trans is the Euclidean difference between
+the final EKF and ground-truth displacement vectors. Ground truth is used
+only for evaluation, never as controller feedback.

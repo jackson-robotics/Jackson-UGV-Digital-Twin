@@ -1,0 +1,47 @@
+esp32_odom_imu:
+  ros__parameters:
+    port: /dev/ttyACM0
+    baud: 115200
+
+    wheel_radius: 0.033
+    track_width: 0.198
+    ticks_per_rev: 621.0
+
+    left_encoder_sign: 1.0
+    right_encoder_sign: 1.0
+    imu_yaw_rate_sign: 1.0
+    gyro_calibration_duration: 5.0
+
+    odom_frame: odom
+    base_frame: base_footprint
+    imu_frame: imu_link
+
+
+jackson_motor_driver:
+  ros__parameters:
+    cmd_topic: /cmd_vel
+    command_timeout: 0.60
+    control_frequency: 20.0
+
+    track_width: 0.198
+    max_wheel_speed: 0.25
+
+    pwm_frequency: 1000
+    max_pwm: 0.80
+    minimum_start_pwm: 0.32
+    minimum_run_pwm: 0.25
+    ramp_time: 0.45
+
+    left_pwm_scale: 1.0
+    right_pwm_scale: 0.937
+
+    invert_left: true
+    invert_right: false
+
+    pwma_channel: 0
+    pwmb_channel: 6
+    ain1_channel: 2
+    ain2_channel: 1
+    bin1_channel: 4
+    bin2_channel: 5
+    standby_channel: 3

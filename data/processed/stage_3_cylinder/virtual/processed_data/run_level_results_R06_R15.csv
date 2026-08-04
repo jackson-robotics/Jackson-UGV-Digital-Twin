@@ -1,0 +1,12 @@
+run_id,status,obstacle_contact,navigation_time_s,recoveries,dynamic_trigger_displacement_m,global_plan_side_switches,route_side,ground_truth_path_length_m,ground_truth_final_position_error_m,physical_surface_clearance_m,data_source_note
+R06,SUCCEEDED,no,12.200000636,2,0.12069371232160653,0,Lower,1.878,0.211,0.089,"Time/recoveries/trigger from per-run records; remaining metrics from verified report"
+R07,SUCCEEDED,no,15.400000803,0,0.120091209419496,2,Lower,1.870,0.192,0.043,"Time/recoveries/trigger from per-run records; remaining metrics from verified report"
+R08,SUCCEEDED,no,12.700000662,0,0.12050897809670374,0,Lower,1.884,0.200,0.080,"Time/recoveries/trigger from per-run records; remaining metrics from verified report"
+R09,SUCCEEDED,no,12.616667324,0,0.12317225331031714,0,Lower,1.897,0.180,0.081,"Time/recoveries/trigger from per-run records; remaining metrics from verified report"
+R10,SUCCEEDED,no,13.366667363,3,0.12087606781469547,0,Lower,1.889,0.198,0.084,"Time/recoveries/trigger from per-run records; remaining metrics from verified report"
+R11,SUCCEEDED,no,13.700000714,1,0.1230616981005057,2,Lower,1.858,0.216,0.050,"Time/recoveries/trigger from per-run records; remaining metrics from verified report"
+R12,SUCCEEDED,no,14.750000769,1,0.12306378296954258,0,Lower,1.875,0.205,0.072,"Time/recoveries/trigger from per-run records; remaining metrics from verified report"
+R13,SUCCEEDED,no,60.150003137,5,0.12126399836093223,25,Upper,1.994,0.291,0.086,"Valid operational outlier; no contact"
+R14,SUCCEEDED,no,12.483333985,0,0.12310182051168209,0,Lower,1.874,0.218,0.083,"Time/recoveries/trigger from per-run records; remaining metrics from verified report"
+R15,SUCCEEDED,no,13.266667359,0,0.1211796792284527,0,Lower,1.862,0.214,0.075,"Time/recoveries/trigger from per-run records; remaining metrics from verified report"
+

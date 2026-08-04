@@ -1,0 +1,12 @@
+name: jackson_mirror_bridge
+from_domain: 0
+to_domain: 10
+
+topics:
+  odometry/filtered:
+    type: nav_msgs/msg/Odometry
+    qos:
+      reliability: reliable
+      durability: volatile
+      history: keep_last
+      depth: 10

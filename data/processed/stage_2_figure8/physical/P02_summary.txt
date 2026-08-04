@@ -1,0 +1,15 @@
+Jackson Physical Figure-Eight Validation (Stage 2)
+=======================================================
+
+Successful runs: 10/10
+EKF closure error: 6.902 +/- 0.725 cm
+Physical closure error: 11.589 +/- 3.139 cm
+Absolute final heading drift: 1.417 +/- 0.219 deg
+Cumulative rotational discrepancy: 5.293 +/- 0.672 deg
+Physical CCW diameter: 107.950 +/- 1.674 cm
+Physical CW diameter: 112.800 +/- 3.225 cm
+Motion duration: 96.425 +/- 2.072 s
+
+Publication-ready result paragraph
+-----------------------------------
+The physical Jackson platform successfully completed all 10 figure-eight trials. The mean EKF-derived closure error was 6.90 +/- 0.73 cm, whereas the independently measured physical closure error was 11.59 +/- 3.14 cm. The final absolute heading drift remained limited to 1.42 +/- 0.22 deg, and the cumulative rotational discrepancy was 5.29 +/- 0.67 deg. These results indicate repeatable rotational tracking while also revealing a systematic difference between EKF-estimated and physically observed translational closure.
