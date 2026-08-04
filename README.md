@@ -52,3 +52,84 @@ This repository contains the consolidated source code and configurations develop
     ├── analysis/              # Data-analysis scripts
     ├── data_extraction/       # Bag and topic extraction utilities
     └── experiments/           # Physical and virtual experiments
+```
+
+## Software Requirements
+
+- Ubuntu 22.04.
+- ROS 2 Humble.
+- Python 3.10 or later.
+- NVIDIA Isaac Sim 4.5 for the virtual platform.
+- NVIDIA JetPack and ROS 2 Humble for the physical Jetson platform.
+
+## Build
+
+From the repository root:
+
+```bash
+cd ros2_ws
+source /opt/ros/humble/setup.bash
+rosdep install --from-paths src --ignore-src -r -y
+colcon build --symlink-install
+source install/setup.bash
+```
+
+On a new ROS 2 installation, initialize `rosdep` once before installing dependencies:
+
+```bash
+sudo rosdep init
+rosdep update
+```
+
+The physical and virtual platforms use separate ROS domains:
+
+- Physical Jetson: `ROS_DOMAIN_ID=0`
+- Virtual Legion and Isaac Sim: `ROS_DOMAIN_ID=10`
+
+## Experimental Datasets
+
+The repository contains processed experimental results and analysis resources for three cross-domain validation stages:
+
+| Stage | Experiment | Physical dataset | Virtual dataset |
+|---|---|---|---|
+| 1 | 1 m square trajectory | P01, runs R01–R10 | V16, runs R01–R10 |
+| 2 | Figure-eight trajectory | P02, runs R01–R10 | V17, runs R01–R10 |
+| 3 | Dynamic-cylinder avoidance | P03, runs R06–R15 | V18, runs R06–R15 |
+
+Processed CSV files, figures, reports, and summary statistics are tracked under `data/processed/`.
+
+The original ROS 2 bag archives are distributed separately through the [Raw ROS 2 Bag Datasets v1.0.0 release](https://github.com/jackson-robotics/Jackson-UGV-Digital-Twin/releases/tag/raw-datasets-v1.0.0).
+
+## Integrity Verification
+
+Verify the processed results from the repository root:
+
+```bash
+sha256sum -c checksums/processed_results.sha256
+```
+
+After downloading all raw dataset assets into the same directory, verify them with:
+
+```bash
+sha256sum -c raw_ros2_bag_archives.sha256
+```
+
+## Reproducibility
+
+Experiment controllers and execution scripts are located under `scripts/experiments/`. Analysis and data-extraction utilities are located under `scripts/analysis/` and `scripts/data_extraction/`.
+
+Machine-specific addresses and paths are not stored in the repository. Physical Jetson connection parameters must be supplied through environment variables.
+
+## Citation
+
+Formal citation metadata will be added in `CITATION.cff` after the complete author list and publication information have been finalized.
+
+Until then, cite the repository and the corresponding versioned dataset release.
+
+## Licensing
+
+Software source code is licensed under the MIT License; see `LICENSE`.
+
+Data and documentation are licensed under the Creative Commons Attribution 4.0 International License; see `LICENSE-DATA`.
+
+Third-party components and dependencies remain subject to their respective licenses.
