@@ -1,0 +1,37 @@
+================================================================================
+PRIM: /World/GroundPlane
+Type: Xform
+CollisionAPI: False
+World size approx: (50.000, 50.000, 0.000)
+Applied schemas: []
+Bound material targets: []
+================================================================================
+PRIM: /World/GroundPlane/CollisionPlane
+Type: Plane
+CollisionAPI: True
+World size approx: (-680564693277057719623408366969033850880.000, -680564693277057719623408366969033850880.000, -680564693277057719623408366969033850880.000)
+Applied schemas: ['PhysicsCollisionAPI']
+Bound material targets: []
+================================================================================
+PRIM: /World/jackson_map_02_environment/ROS_Map_Root/Walls_0p15x0p60/Walls_0p15x0p60_Mesh
+Type: Mesh
+CollisionAPI: True
+World size approx: (4.550, 4.550, 0.600)
+Applied schemas: ['PhysicsCollisionAPI', 'PhysxCollisionAPI', 'PhysxTriangleMeshCollisionAPI', 'PhysicsMeshCollisionAPI', 'MaterialBindingAPI']
+Bound material targets: [Sdf.Path('/World/jackson_map_02_environment/_materials/MAT_Walls')]
+  MATERIAL PRIM: /World/jackson_map_02_environment/_materials/MAT_Walls
+  Applied schemas: []
+================================================================================
+PRIM: /World/jackson_map_02_environment/ROS_Map_Root/Floor
+Type: Xform
+CollisionAPI: False
+World size approx: (7.850, 5.800, 0.050)
+Applied schemas: []
+Bound material targets: []
+================================================================================
+PRIM: /World/jackson_map_02_environment/_materials/MAT_Floor
+Type: Material
+CollisionAPI: False
+World size approx: (-680564693277057719623408366969033850880.000, -680564693277057719623408366969033850880.000, -680564693277057719623408366969033850880.000)
+Applied schemas: []
+Bound material targets: []

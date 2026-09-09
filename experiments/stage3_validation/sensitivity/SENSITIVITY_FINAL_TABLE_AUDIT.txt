@@ -1,0 +1,70 @@
+REVIEWER 1 — COMMENT 1
+FINAL SENSITIVITY TABLE AUDIT
+================================================================================================
+
+Experimental design:
+  OFAT local sensitivity analysis, 15 runs per condition, 105 total runs.
+  Perturbation bands are controlled sensitivity perturbations and are NOT empirical confidence intervals of calibration uncertainty.
+
+Trajectory deviation:
+  Arc-length-weighted RMS nearest-point distance from each aligned GT trajectory to the calibrated C00 median GT polyline. C00 uses leave-one-out references to quantify intrinsic repeatability.
+
+Obstacle clearance:
+  Minimum post-insertion planar geometric separation between the cylinder and the conservative audited USD robot collision envelope.
+
+Navigation time:
+  Maximum NavigateToPose feedback.navigation_time, using simulation time.
+
+Statistics:
+  Continuous metrics are summarized for SUCCEEDED runs using median [IQR] as primary descriptors because several conditions show skewed or multimodal behavior.
+  All runs, including the single ABORTED run, contribute to success rate.
+
+Baseline
+  Success: 15/15 (100.0%)
+  Trajectory deviation median [IQR]: 1.05 [0.98, 2.22] cm
+  Clearance median [IQR]: 8.17 [6.94, 9.01] cm
+  Navigation time median [IQR]: 13.23 [12.98, 13.55] s
+  Changes vs C00 median: Δtrajectory=+0.00 cm, Δclearance=+0.00 cm, Δnavigation=+0.0%
+
+r -5%
+  Success: 15/15 (100.0%)
+  Trajectory deviation median [IQR]: 2.24 [1.25, 37.42] cm
+  Clearance median [IQR]: 8.35 [5.83, 9.52] cm
+  Navigation time median [IQR]: 12.12 [12.02, 13.55] s
+  Changes vs C00 median: Δtrajectory=+1.20 cm, Δclearance=+0.18 cm, Δnavigation=-8.4%
+
+r +5%
+  Success: 15/15 (100.0%)
+  Trajectory deviation median [IQR]: 35.80 [3.87, 36.89] cm
+  Clearance median [IQR]: 4.95 [4.52, 6.03] cm
+  Navigation time median [IQR]: 25.20 [14.58, 58.15] s
+  Changes vs C00 median: Δtrajectory=+34.75 cm, Δclearance=-3.22 cm, Δnavigation=+90.4%
+
+B -5%
+  Success: 14/15 (93.3%)
+  Trajectory deviation median [IQR]: 4.25 [3.45, 36.93] cm
+  Clearance median [IQR]: 5.65 [4.50, 6.37] cm
+  Navigation time median [IQR]: 54.31 [17.75, 56.77] s
+  Changes vs C00 median: Δtrajectory=+3.20 cm, Δclearance=-2.52 cm, Δnavigation=+310.4%
+
+B +5%
+  Success: 15/15 (100.0%)
+  Trajectory deviation median [IQR]: 1.05 [0.95, 1.17] cm
+  Clearance median [IQR]: 8.62 [7.95, 8.84] cm
+  Navigation time median [IQR]: 12.37 [12.23, 12.85] s
+  Changes vs C00 median: Δtrajectory=+0.00 cm, Δclearance=+0.45 cm, Δnavigation=-6.5%
+
+D -10%
+  Success: 15/15 (100.0%)
+  Trajectory deviation median [IQR]: 1.29 [1.03, 4.44] cm
+  Clearance median [IQR]: 6.90 [4.90, 8.55] cm
+  Navigation time median [IQR]: 13.90 [12.91, 14.76] s
+  Changes vs C00 median: Δtrajectory=+0.24 cm, Δclearance=-1.27 cm, Δnavigation=+5.0%
+
+D +10%
+  Success: 15/15 (100.0%)
+  Trajectory deviation median [IQR]: 1.17 [0.70, 2.70] cm
+  Clearance median [IQR]: 8.20 [6.89, 8.72] cm
+  Navigation time median [IQR]: 13.30 [12.84, 13.90] s
+  Changes vs C00 median: Δtrajectory=+0.12 cm, Δclearance=+0.03 cm, Δnavigation=+0.5%
+

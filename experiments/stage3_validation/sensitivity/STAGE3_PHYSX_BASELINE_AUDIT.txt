@@ -1,0 +1,62 @@
+======================================================================
+ JACKSON STAGE 3 - LIVE USD / PHYSX BASELINE AUDIT
+======================================================================
+
+--- WHEEL JOINT PRIMS ---
+/World/Jackson_mobile_robot/base_link/wheel_joints
+/World/Jackson_mobile_robot/base_link/wheel_joints/left_wheel_joint
+/World/Jackson_mobile_robot/base_link/wheel_joints/right_wheel_joint
+
+--- USD PHYSICS DRIVE PARAMETERS ---
+
+JOINT: /World/Jackson_mobile_robot/base_link/wheel_joints
+
+JOINT: /World/Jackson_mobile_robot/base_link/wheel_joints/left_wheel_joint
+  DRIVE = angular
+    damping            = 10000.0
+    targetVelocity     = 0.0
+
+JOINT: /World/Jackson_mobile_robot/base_link/wheel_joints/right_wheel_joint
+  DRIVE = angular
+    damping            = 10000.0
+    targetVelocity     = 0.0
+
+--- ALL PHYSX/DRIVE ATTRIBUTES ON WHEEL JOINTS ---
+
+PRIM: /World/Jackson_mobile_robot/base_link/wheel_joints
+  [sin atributos relevantes authored directamente]
+
+PRIM: /World/Jackson_mobile_robot/base_link/wheel_joints/left_wheel_joint
+  drive:angular:physics:damping                      = 10000.0
+  drive:angular:physics:maxForce                     = inf
+  drive:angular:physics:stiffness                    = 0.0
+  drive:angular:physics:targetPosition               = 0.0
+  drive:angular:physics:targetVelocity               = 0.0
+  drive:angular:physics:type                         = force
+  physics:breakForce                                 = inf
+
+PRIM: /World/Jackson_mobile_robot/base_link/wheel_joints/right_wheel_joint
+  drive:angular:physics:damping                      = 10000.0
+  drive:angular:physics:maxForce                     = inf
+  drive:angular:physics:stiffness                    = 0.0
+  drive:angular:physics:targetPosition               = 0.0
+  drive:angular:physics:targetVelocity               = 0.0
+  drive:angular:physics:type                         = force
+  physics:breakForce                                 = inf
+
+--- PHYSX MATERIALS / FRICTION ---
+NO SE ENCONTRARON Physics/PhysX material APIs
+
+--- GLOBAL RELEVANT AUTHORED ATTRIBUTES ---
+
+PRIM: /World/Jackson_mobile_robot/base_link/wheel_joints/left_wheel_joint
+  drive:angular:physics:damping                      = 10000.0
+
+PRIM: /World/Jackson_mobile_robot/base_link/wheel_joints/right_wheel_joint
+  drive:angular:physics:damping                      = 10000.0
+
+Prims with relevant authored attributes: 2
+
+======================================================================
+ END AUDIT
+======================================================================

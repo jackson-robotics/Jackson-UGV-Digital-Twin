@@ -1,5 +1,3 @@
-* text=auto
-
 *.sh text eol=lf
 *.py text eol=lf
 *.yaml text eol=lf
@@ -7,8 +5,14 @@
 *.md text eol=lf
 *.cff text eol=lf
 
-# Preserve processed experimental CSV files byte-for-byte.
+# Preserve processed experimental results byte-for-byte.
 data/processed/** -text -diff
+
+# Preserve Stage 3 validation CSV evidence byte-for-byte.
+experiments/stage3_validation/**/*.csv -text -diff
+
+# Preserve Stage 3 validation audit files byte-for-byte.
+experiments/stage3_validation/**/*.txt -text -diff
 
 # Binary assets.
 *.usd binary
@@ -16,3 +20,4 @@ data/processed/** -text -diff
 *.png binary
 *.pdf binary
 *.xlsx binary
+*.zip binary

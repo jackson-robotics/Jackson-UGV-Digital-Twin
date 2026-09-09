@@ -1,0 +1,32 @@
+Jackson Stage 3 — Reviewer 1 Comment 5 Generalization
+
+Baseline parameters preserved:
+wheel_radius     = 0.03300 m
+wheel_separation = 0.19800 m
+PhysX damping    = 10000
+trigger           = 0.120 m
+cylinder radius   = 0.125 m
+cylinder X        = 0.6091 m
+
+Conditions:
+G01_CYL_PLUS_Y
+  cylinder Y = +0.1136 m
+  offset from nominal centerline = +0.1500 m
+
+G02_CYL_MINUS_Y
+  cylinder Y = -0.1864 m
+  offset from nominal centerline = -0.1500 m
+
+15 independent runs per condition.
+
+G04_LIDAR_DEGRADED
+  cylinder Y = -0.0364 m (nominal layout)
+  baseline r = 0.03300 m
+  baseline B = 0.19800 m
+  baseline PhysX damping = 10000
+  raw LiDAR retained on /scan
+  Nav2 input = /scan_degraded
+  additional Gaussian range noise sigma = 0.030 m
+  valid-beam dropout probability = 5.0%
+  deterministic base seed = 20260827
+  15 independent navigation runs

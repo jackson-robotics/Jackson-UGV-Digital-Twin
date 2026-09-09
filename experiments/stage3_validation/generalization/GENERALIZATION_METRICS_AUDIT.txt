@@ -1,0 +1,45 @@
+REVIEWER 1 COMMENT 5 — GENERALIZATION METRIC AUDIT
+==========================================================================================
+
+Total trials: 75 = 15 baseline + 60 new generalization trials.
+Continuous metrics use SUCCEEDED trials. All runs contribute to success rate.
+
+Navigation time: maximum NavigateToPose feedback.navigation_time using simulation time.
+GT path length: integrated planar distance from /ground_truth/odom inside the navigation interval.
+Minimum clearance: post-insertion circle-to-oriented-rectangle gap using the audited conservative USD collision envelope.
+
+Baseline (C00_BASE)
+  Success: 15/15 (100.0%)
+  Navigation time median [IQR]: 13.23 [12.98, 13.55] s
+  GT path length median [IQR]: 1.885 [1.870, 1.892] m
+  Minimum clearance median [IQR]: 8.17 [6.94, 9.01] cm
+  Minimum observed clearance: 3.59 cm
+
+Obstacle +0.15 m Y (G01_CYL_PLUS_Y)
+  Success: 15/15 (100.0%)
+  Navigation time median [IQR]: 10.73 [10.55, 11.23] s
+  GT path length median [IQR]: 1.758 [1.740, 1.770] m
+  Minimum clearance median [IQR]: 11.63 [10.75, 12.59] cm
+  Minimum observed clearance: 4.87 cm
+
+Obstacle -0.15 m Y (G02_CYL_MINUS_Y)
+  Success: 15/15 (100.0%)
+  Navigation time median [IQR]: 9.12 [9.08, 9.30] s
+  GT path length median [IQR]: 1.708 [1.688, 1.722] m
+  Minimum clearance median [IQR]: 7.40 [7.16, 7.76] cm
+  Minimum observed clearance: 5.63 cm
+
+Low-friction surface (G03_LOW_FRICTION)
+  Success: 15/15 (100.0%)
+  Navigation time median [IQR]: 12.33 [11.99, 12.68] s
+  GT path length median [IQR]: 1.878 [1.874, 1.892] m
+  Minimum clearance median [IQR]: 8.61 [7.87, 9.24] cm
+  Minimum observed clearance: 4.22 cm
+
+Degraded LiDAR (G04_LIDAR_DEGRADED)
+  Success: 15/15 (100.0%)
+  Navigation time median [IQR]: 18.12 [13.23, 32.87] s
+  GT path length median [IQR]: 1.917 [1.903, 1.934] m
+  Minimum clearance median [IQR]: 9.69 [7.89, 11.07] cm
+  Minimum observed clearance: 5.89 cm
+

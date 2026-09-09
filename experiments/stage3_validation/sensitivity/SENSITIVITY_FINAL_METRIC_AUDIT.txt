@@ -1,0 +1,67 @@
+REVIEWER 1 — COMMENT 1
+FINAL SENSITIVITY METRIC AUDIT
+==========================================================================================
+
+Interpretation scope:
+Controlled OFAT perturbations around the calibrated virtual baseline; perturbation bands are not empirical confidence intervals for parameter uncertainty.
+
+Primary trajectory metric:
+RMS Euclidean deviation from the calibrated C00 median GT trajectory after initial-pose alignment and normalized arc-length resampling. C00 uses leave-one-out references and represents intrinsic baseline repeatability.
+
+Primary clearance metric:
+Minimum post-insertion geometric separation between the cylinder and the conservative USD robot collision envelope.
+
+Primary time metric:
+Maximum NavigateToPose feedback.navigation_time in simulation time. Continuous statistics use SUCCEEDED runs only; failures remain in success rate.
+
+Baseline dominant avoidance side: NEGATIVE_Y
+
+C00_BASE (Baseline)
+  Success: 15/15 (100.0%)
+  Trajectory RMS deviation median [IQR]: 0.0153 [0.0135, 0.0285] m
+  Clearance median [IQR]: 0.0817 [0.0694, 0.0901] m
+  Navigation time median [IQR]: 13.233 [12.975, 13.550] s
+  Opposite-side runs: 0/15
+
+C01_R_MINUS5 (r -5%)
+  Success: 15/15 (100.0%)
+  Trajectory RMS deviation median [IQR]: 0.0312 [0.0215, 0.4069] m
+  Clearance median [IQR]: 0.0835 [0.0583, 0.0952] m
+  Navigation time median [IQR]: 12.117 [12.017, 13.550] s
+  Opposite-side runs: 6/15
+
+C02_R_PLUS5 (r +5%)
+  Success: 15/15 (100.0%)
+  Trajectory RMS deviation median [IQR]: 0.3871 [0.0528, 0.4023] m
+  Clearance median [IQR]: 0.0495 [0.0452, 0.0603] m
+  Navigation time median [IQR]: 25.200 [14.575, 58.150] s
+  Opposite-side runs: 9/15
+
+C03_B_MINUS5 (B -5%)
+  Success: 14/15 (93.3%)
+  Trajectory RMS deviation median [IQR]: 0.1634 [0.0397, 0.3997] m
+  Clearance median [IQR]: 0.0565 [0.0450, 0.0637] m
+  Navigation time median [IQR]: 54.308 [17.754, 56.767] s
+  Opposite-side runs: 5/15
+
+C04_B_PLUS5 (B +5%)
+  Success: 15/15 (100.0%)
+  Trajectory RMS deviation median [IQR]: 0.0137 [0.0122, 0.0182] m
+  Clearance median [IQR]: 0.0862 [0.0795, 0.0884] m
+  Navigation time median [IQR]: 12.367 [12.233, 12.850] s
+  Opposite-side runs: 0/15
+
+C05_D_MINUS10 (D -10%)
+  Success: 15/15 (100.0%)
+  Trajectory RMS deviation median [IQR]: 0.0279 [0.0182, 0.0504] m
+  Clearance median [IQR]: 0.0690 [0.0490, 0.0855] m
+  Navigation time median [IQR]: 13.900 [12.908, 14.758] s
+  Opposite-side runs: 2/15
+
+C06_D_PLUS10 (D +10%)
+  Success: 15/15 (100.0%)
+  Trajectory RMS deviation median [IQR]: 0.0143 [0.0104, 0.0336] m
+  Clearance median [IQR]: 0.0820 [0.0689, 0.0872] m
+  Navigation time median [IQR]: 13.300 [12.842, 13.900] s
+  Opposite-side runs: 1/15
+

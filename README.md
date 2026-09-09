@@ -100,6 +100,11 @@ Processed CSV files, figures, reports, and summary statistics are tracked under 
 
 The original ROS 2 bag archives are distributed separately through the [Raw ROS 2 Bag Datasets v1.0.0 release](https://github.com/jackson-robotics/Jackson-UGV-Digital-Twin/releases/tag/raw-datasets-v1.0.0).
 
+Stage 3 sensitivity and robustness/generalization experiments are documented
+under [`experiments/stage3_validation/`](experiments/stage3_validation/).
+The corresponding raw ROS 2 bags are distributed through the
+[Stage 3 Sensitivity and Generalization Datasets v1.0.0 release](https://github.com/jackson-robotics/Jackson-UGV-Digital-Twin/releases/tag/stage3-validation-datasets-v1.0.0).
+
 ## Integrity Verification
 
 Verify the processed results from the repository root:

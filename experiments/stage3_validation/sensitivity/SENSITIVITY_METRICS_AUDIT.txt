@@ -1,0 +1,55 @@
+JACKSON STAGE 3 — SENSITIVITY METRICS AUDIT
+========================================================================================================================
+
+Continuous summary statistics include SUCCEEDED runs only.
+ABORTED runs remain in the run-level dataset and success-rate calculation.
+
+C00_BASE
+  Success: 15/15 (100.0%)
+  Navigation time: 13.716 ± 1.438 s; median 13.233 s; IQR 12.975-13.550 s
+  RMS lateral deviation: 0.1967 ± 0.0143 m
+  Minimum clearance: 0.0765 ± 0.0181 m; observed minimum 0.0359 m
+  GT path length: 1.8800 ± 0.0213 m
+
+C01_R_MINUS5
+  Success: 15/15 (100.0%)
+  Navigation time: 18.941 ± 17.051 s; median 12.117 s; IQR 12.017-13.550 s
+  RMS lateral deviation: 0.1820 ± 0.0369 m
+  Minimum clearance: 0.0793 ± 0.0243 m; observed minimum 0.0465 m
+  GT path length: 1.9012 ± 0.0403 m
+
+C02_R_PLUS5
+  Success: 15/15 (100.0%)
+  Navigation time: 39.817 ± 29.061 s; median 25.200 s; IQR 14.575-58.150 s
+  RMS lateral deviation: 0.1453 ± 0.0306 m
+  Minimum clearance: 0.0571 ± 0.0288 m; observed minimum 0.0181 m
+  GT path length: 1.9477 ± 0.1691 m
+
+C03_B_MINUS5
+  Success: 14/15 (93.3%)
+  Navigation time: 51.112 ± 36.257 s; median 54.308 s; IQR 17.754-56.767 s
+  RMS lateral deviation: 0.1489 ± 0.0296 m
+  Minimum clearance: 0.0613 ± 0.0330 m; observed minimum 0.0133 m
+  GT path length: 2.0491 ± 0.2537 m
+
+C04_B_PLUS5
+  Success: 15/15 (100.0%)
+  Navigation time: 12.560 ± 0.513 s; median 12.367 s; IQR 12.233-12.850 s
+  RMS lateral deviation: 0.2044 ± 0.0071 m
+  Minimum clearance: 0.0847 ± 0.0073 m; observed minimum 0.0713 m
+  GT path length: 1.8812 ± 0.0233 m
+
+C05_D_MINUS10
+  Success: 15/15 (100.0%)
+  Navigation time: 17.630 ± 11.413 s; median 13.900 s; IQR 12.908-14.758 s
+  RMS lateral deviation: 0.1798 ± 0.0313 m
+  Minimum clearance: 0.0669 ± 0.0242 m; observed minimum 0.0277 m
+  GT path length: 1.8872 ± 0.0455 m
+
+C06_D_PLUS10
+  Success: 15/15 (100.0%)
+  Navigation time: 17.401 ± 13.701 s; median 13.300 s; IQR 12.842-13.900 s
+  RMS lateral deviation: 0.1874 ± 0.0286 m
+  Minimum clearance: 0.0778 ± 0.0187 m; observed minimum 0.0349 m
+  GT path length: 1.8954 ± 0.0529 m
+

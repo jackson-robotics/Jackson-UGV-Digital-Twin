@@ -1,0 +1,27 @@
+C00_BASE
+  statuses: {'SUCCEEDED': 15}
+  integrity_errors: 0
+C01_R_MINUS5
+  statuses: {'SUCCEEDED': 15}
+  integrity_errors: 0
+C02_R_PLUS5
+  statuses: {'SUCCEEDED': 15}
+  integrity_errors: 0
+C03_B_MINUS5
+  statuses: {'SUCCEEDED': 14, 'ABORTED': 1}
+  integrity_errors: 0
+C04_B_PLUS5
+  statuses: {'SUCCEEDED': 15}
+  integrity_errors: 0
+C05_D_MINUS10
+  statuses: {'SUCCEEDED': 15}
+  integrity_errors: 0
+C06_D_PLUS10
+  statuses: {'SUCCEEDED': 15}
+  integrity_errors: 0
+
+VALID LAUNCHER VERSIONS
+83cfe... = original operational timeout map->base_footprint 30 s
+d16b47... = identical experiment with map->base_footprint timeout increased to 60 s
+
+C03_B_MINUS5 R05 ABORTED is retained as a valid experimental outcome.

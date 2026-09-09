@@ -1,0 +1,37 @@
+Jackson Stage 3 - Reviewer 1.1 Sensitivity Campaign
+15 independent virtual runs per condition
+
+C00_BASE
+  wheel_radius      = 0.03300
+  wheel_separation  = 0.19800
+  physx_damping     = 10000
+
+C01_R_MINUS5
+  wheel_radius      = 0.03135
+  wheel_separation  = 0.19800
+  physx_damping     = 10000
+
+C02_R_PLUS5
+  wheel_radius      = 0.03465
+  wheel_separation  = 0.19800
+  physx_damping     = 10000
+
+C03_B_MINUS5
+  wheel_radius      = 0.03300
+  wheel_separation  = 0.18810
+  physx_damping     = 10000
+
+C04_B_PLUS5
+  wheel_radius      = 0.03300
+  wheel_separation  = 0.20790
+  physx_damping     = 10000
+
+C05_D_MINUS10
+  wheel_radius      = 0.03300
+  wheel_separation  = 0.19800
+  physx_damping     = 9000
+
+C06_D_PLUS10
+  wheel_radius      = 0.03300
+  wheel_separation  = 0.19800
+  physx_damping     = 11000

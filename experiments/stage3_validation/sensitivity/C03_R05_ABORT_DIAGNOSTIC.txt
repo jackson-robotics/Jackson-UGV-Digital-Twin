@@ -1,0 +1,222 @@
+======================================================================
+ C03_B_MINUS5 R05 — ABORT DIAGNOSTIC
+======================================================================
+Generated: 2026-08-26T16:30:23-05:00
+
+RUN DIRECTORY:
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422
+
+=== RUN NOTES ===
+Jackson Stage 3 Virtual Dynamic Cylinder Official Run — INFL025 COST10
+Condition: C03_B_MINUS5
+Run: R05
+Result: ABORTED
+Obstacle contact: no
+Wheel radius: 0.03300 m
+Wheel separation: 0.18810 m
+Expected PhysX damping: 10000
+PhysX verification: PHYSX_CONDITION_SETUP.txt
+Wheel-odometry runtime parameters: wheel_odom_active_params.yaml
+Manual cancellation: no
+Operator intervention during navigation: no
+Controller: DWBLocalPlanner
+min_speed_theta: 0.30 rad/s
+xy_goal_tolerance: 0.25 m
+yaw_goal_tolerance: 0.40 rad
+robot_radius: 0.16 m
+inflation_radius: 0.25 m
+cost_scaling_factor: 10.0
+Start: x=-0.6909 m, y=-0.0364 m, yaw=0 rad
+Goal: x=1.2091 m, y=-0.0364 m, yaw=0 rad
+Cylinder: x=0.6091 m, y=-0.0364 m, parked z=-1.0000 m, inserted z=0.1900 m
+Nominal trigger: 0.120 m ground-truth forward displacement
+Completion: 2026-08-26T15:28:22-05:00
+
+=== FINAL / STATUS / RESULT ARTIFACTS ===
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/final_amcl_pose.txt
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/final_forward_displacement.txt
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/final_ground_truth_odom.txt
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/final_tf_map_base_footprint.txt
+
+=== RELEVANT TEXT FROM SAVED ARTIFACTS ===
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:46:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:72:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:98:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:124:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:150:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:176:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:202:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:228:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:254:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:280:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:306:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:332:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:358:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:384:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:410:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:436:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:462:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:488:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:514:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:540:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:566:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:592:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:618:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:644:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:670:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:696:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:722:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:748:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:774:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:800:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:826:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:852:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:878:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:904:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:930:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:956:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:982:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:1008:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:1034:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:1060:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:1086:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:1112:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:1138:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:1164:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:1190:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:1216:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:1242:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:1268:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:1294:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:1320:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:1346:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:1372:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:1398:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:1424:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:1450:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:1476:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:1502:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:1528:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:1554:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:1580:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:1606:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:1632:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:1658:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:1684:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:1710:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:1736:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:1762:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:1788:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:1814:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:1840:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:1866:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:1892:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:1918:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:1944:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:1970:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:1996:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:2022:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:2048:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:2074:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:2100:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:2126:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:2152:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:2178:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:2204:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:2230:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:2256:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:2282:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:2308:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:2334:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:2360:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:2386:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:2412:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:2438:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:2464:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:2490:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:2516:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:2542:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:2568:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:2594:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:2620:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:2646:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:2672:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:2698:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:2724:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:2750:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:2776:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:2802:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:2828:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:2854:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:2880:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:2906:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:2932:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:2958:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:2984:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:3010:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:3036:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:3062:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:3088:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:3114:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:3140:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:3166:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:3192:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:3218:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:3244:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:3270:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:3296:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:3322:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:3348:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:3374:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:3400:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:3426:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:3452:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:3478:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:3504:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:3530:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:3556:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:3582:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:3608:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:3634:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:3660:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:3686:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:3712:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:3738:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:3764:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:3790:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:3816:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:3842:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:3868:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:3894:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:3920:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:3946:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:3972:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:3998:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:4024:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:4050:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:4076:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:4102:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:4128:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:4154:number_of_recoveries: 0
+/home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/navigate_to_pose_action.txt:4180:number_of_recoveries: 0
+
+=== ROSBAG LOCATION ===
+metadata: /home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422/metadata.yaml
+bag: /home/carlos/jackson_dt_ws/revision_r1_1_sensitivity/runs/C03_B_MINUS5/C03_B_MINUS5_R05_20260826_152422
+
+=== BAG INFO — RELEVANT TOPICS ===
+Duration:          202.378041562s
+Messages:          119147
+                   Topic: /cmd_vel_nav | Type: geometry_msgs/msg/Twist | Count: 3109 | Serialization Format: cdr
+                   Topic: /rosout | Type: rcl_interfaces/msg/Log | Count: 268 | Serialization Format: cdr
+                   Topic: /behavior_tree_log | Type: nav2_msgs/msg/BehaviorTreeLog | Count: 3656 | Serialization Format: cdr
+                   Topic: /local_plan | Type: nav_msgs/msg/Path | Count: 3099 | Serialization Format: cdr
+                   Topic: /ground_truth/odom | Type: nav_msgs/msg/Odometry | Count: 7007 | Serialization Format: cdr
+                   Topic: /cmd_vel | Type: geometry_msgs/msg/Twist | Count: 3525 | Serialization Format: cdr
+                   Topic: /navigate_to_pose/_action/status | Type: action_msgs/msg/GoalStatusArray | Count: 2 | Serialization Format: cdr
+                   Topic: /navigate_to_pose/_action/feedback | Type: nav2_msgs/action/NavigateToPose_FeedbackMessage | Count: 19001 | Serialization Format: cdr
+                   Topic: /plan | Type: nav_msgs/msg/Path | Count: 151 | Serialization Format: cdr
+
+======================================================================
+ END
+======================================================================

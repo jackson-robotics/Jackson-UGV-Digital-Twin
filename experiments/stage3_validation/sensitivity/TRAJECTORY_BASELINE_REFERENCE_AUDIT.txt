@@ -1,0 +1,68 @@
+JACKSON STAGE 3 — BASELINE-REFERENCED TRAJECTORY DEVIATION AUDIT
+==============================================================================================================
+
+Definition:
+  1. Ground-truth trajectory restricted to the NavigateToPose navigation interval.
+  2. Each run translated and rotated into its own initial GT frame.
+  3. Each trajectory resampled at 201 equally spaced normalized arc-length positions.
+  4. C00 reference = pointwise median trajectory of 15 successful baseline runs.
+  5. C00 internal variability evaluated by leave-one-out reference.
+  6. Primary metric = RMS Euclidean distance to the calibrated baseline trajectory.
+  7. Continuous summaries include SUCCEEDED runs only; ABORTED runs remain in run-level CSV.
+
+C00_BASE
+  N completed: 15
+  Baseline-referenced RMS deviation: 0.020921 ± 0.012602 m
+  Median RMS deviation: 0.015319 m
+  Mean pointwise deviation: 0.017573 m
+  Mean maximum deviation: 0.037029 m
+  GT path length: 1.880011 ± 0.021339 m
+
+C01_R_MINUS5
+  N completed: 15
+  Baseline-referenced RMS deviation: 0.180487 ± 0.199413 m
+  Median RMS deviation: 0.031186 m
+  Mean pointwise deviation: 0.143333 m
+  Mean maximum deviation: 0.295471 m
+  GT path length: 1.901223 ± 0.040252 m
+
+C02_R_PLUS5
+  N completed: 15
+  Baseline-referenced RMS deviation: 0.269353 ± 0.176384 m
+  Median RMS deviation: 0.387142 m
+  Mean pointwise deviation: 0.205871 m
+  Mean maximum deviation: 0.458040 m
+  GT path length: 1.947730 ± 0.169094 m
+
+C03_B_MINUS5
+  N completed: 14
+  Baseline-referenced RMS deviation: 0.230127 ± 0.184574 m
+  Median RMS deviation: 0.163450 m
+  Mean pointwise deviation: 0.179046 m
+  Mean maximum deviation: 0.393275 m
+  GT path length: 2.049111 ± 0.253677 m
+
+C04_B_PLUS5
+  N completed: 15
+  Baseline-referenced RMS deviation: 0.016198 ± 0.005653 m
+  Median RMS deviation: 0.013653 m
+  Mean pointwise deviation: 0.014079 m
+  Mean maximum deviation: 0.030865 m
+  GT path length: 1.881169 ± 0.023256 m
+
+C05_D_MINUS10
+  N completed: 15
+  Baseline-referenced RMS deviation: 0.078305 ± 0.128056 m
+  Median RMS deviation: 0.027917 m
+  Mean pointwise deviation: 0.061060 m
+  Mean maximum deviation: 0.133018 m
+  GT path length: 1.887210 ± 0.045490 m
+
+C06_D_PLUS10
+  N completed: 15
+  Baseline-referenced RMS deviation: 0.072459 ± 0.141117 m
+  Median RMS deviation: 0.014315 m
+  Mean pointwise deviation: 0.056350 m
+  Mean maximum deviation: 0.124737 m
+  GT path length: 1.895374 ± 0.052921 m
+

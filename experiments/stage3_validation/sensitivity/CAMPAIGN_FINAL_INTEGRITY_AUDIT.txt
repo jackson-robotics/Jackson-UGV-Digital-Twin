@@ -1,0 +1,98 @@
+========================================================================================================================
+JACKSON STAGE 3 — FINAL SENSITIVITY CAMPAIGN INTEGRITY AUDIT
+========================================================================================================================
+
+
+========================================================================================================================
+C00_BASE
+========================================================================================================================
+Expected active runs: 15
+Directories found:   15
+Statuses:            {'SUCCEEDED': 15}
+Integrity errors:    0
+
+========================================================================================================================
+C01_R_MINUS5
+========================================================================================================================
+Expected active runs: 15
+Directories found:   15
+Statuses:            {'SUCCEEDED': 15}
+Integrity errors:    15
+
+  ERROR: R01: campaign script SHA mismatch
+  ERROR: R02: campaign script SHA mismatch
+  ERROR: R03: campaign script SHA mismatch
+  ERROR: R04: campaign script SHA mismatch
+  ERROR: R05: campaign script SHA mismatch
+  ERROR: R06: campaign script SHA mismatch
+  ERROR: R07: campaign script SHA mismatch
+  ERROR: R08: campaign script SHA mismatch
+  ERROR: R09: campaign script SHA mismatch
+  ERROR: R10: campaign script SHA mismatch
+  ERROR: R11: campaign script SHA mismatch
+  ERROR: R12: campaign script SHA mismatch
+  ERROR: R13: campaign script SHA mismatch
+  ERROR: R14: campaign script SHA mismatch
+  ERROR: R15: campaign script SHA mismatch
+
+========================================================================================================================
+C02_R_PLUS5
+========================================================================================================================
+Expected active runs: 15
+Directories found:   15
+Statuses:            {'SUCCEEDED': 15}
+Integrity errors:    0
+
+========================================================================================================================
+C03_B_MINUS5
+========================================================================================================================
+Expected active runs: 15
+Directories found:   15
+Statuses:            {'SUCCEEDED': 14, 'ABORTED': 1}
+Integrity errors:    0
+
+========================================================================================================================
+C04_B_PLUS5
+========================================================================================================================
+Expected active runs: 15
+Directories found:   15
+Statuses:            {'SUCCEEDED': 15}
+Integrity errors:    0
+
+========================================================================================================================
+C05_D_MINUS10
+========================================================================================================================
+Expected active runs: 15
+Directories found:   15
+Statuses:            {'SUCCEEDED': 15}
+Integrity errors:    0
+
+========================================================================================================================
+C06_D_PLUS10
+========================================================================================================================
+Expected active runs: 15
+Directories found:   15
+Statuses:            {'SUCCEEDED': 15}
+Integrity errors:    0
+
+
+========================================================================================================================
+FINAL SUMMARY
+========================================================================================================================
+CONDITION             RUNS   SUCCESS   NON-SUCCESS    INTEGRITY ERRORS
+------------------------------------------------------------------------------------------------------------------------
+C00_BASE                15        15             0                   0
+C01_R_MINUS5            15        15             0                  15
+C02_R_PLUS5             15        15             0                   0
+C03_B_MINUS5            15        14             1                   0
+C04_B_PLUS5             15        15             0                   0
+C05_D_MINUS10           15        15             0                   0
+C06_D_PLUS10            15        15             0                   0
+------------------------------------------------------------------------------------------------------------------------
+TOTAL                  105       104             1                  15
+
+EXPECTED EXPERIMENTAL OUTCOME:
+  C03_B_MINUS5 R05 = ABORTED is retained as a valid experimental outcome.
+  It must NOT be classified as an integrity error.
+
+FINAL CAMPAIGN STATUS: REVIEW REQUIRED
