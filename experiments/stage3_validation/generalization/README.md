@@ -36,7 +36,7 @@ analysis because the 15-run C00 nominal baseline is included in the comparison.
 
 Those C00 baseline trials are not duplicated here. They are contained in:
 
-Stage3_sensitivity_R01_R15_revision.zip
+Stage3_sensitivity_R01_R15.zip
 
 under:
 
